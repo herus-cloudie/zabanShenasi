@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+  font-family: "peyda";
+  src: url('/fonts/peyda.ttf')
+}
+
+html{
+  font-family: "peyda" !important;
+}
+body{
+  font-family: "peyda" !important;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Hides scrollbar in IE and Edge */
+  scrollbar-width: none;    /* Hides scrollbar in Firefox */
+}

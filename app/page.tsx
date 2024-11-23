@@ -1,9 +1,9 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div>
-      
-    </div>
+    <main className=" mx-5 my-2 border-r rounded-lg border-none">
+
+    </main>
   );
 }
