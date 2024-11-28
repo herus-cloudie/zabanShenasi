@@ -18,7 +18,6 @@ export default function RootLayout({
       <body className={`bg-gray-800 h-screen antialiased`}>
         <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
